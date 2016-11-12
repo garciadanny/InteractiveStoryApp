@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		30FBD86C1DD69318009581DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FBD86A1DD69318009581DE /* Main.storyboard */; };
 		30FBD86E1DD69318009581DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FBD86D1DD69318009581DE /* Assets.xcassets */; };
 		30FBD8711DD69318009581DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FBD86F1DD69318009581DE /* LaunchScreen.storyboard */; };
+		30FBD8791DD695DB009581DE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 30FBD8781DD695DB009581DE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		30FBD86D1DD69318009581DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30FBD8701DD69318009581DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30FBD8721DD69318009581DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FBD8781DD695DB009581DE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		30FBD85A1DD69318009581DE = {
 			isa = PBXGroup;
 			children = (
+				30FBD8781DD695DB009581DE /* README.md */,
 				30FBD8651DD69318009581DE /* InteractiveStory */,
 				30FBD8641DD69318009581DE /* Products */,
 			);
@@ -101,7 +104,7 @@
 				};
 			};
 			buildConfigurationList = 30FBD85E1DD69318009581DE /* Build configuration list for PBXProject "InteractiveStory" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FBD8791DD695DB009581DE /* README.md in Sources */,
 				30FBD8691DD69318009581DE /* ViewController.swift in Sources */,
 				30FBD8671DD69318009581DE /* AppDelegate.swift in Sources */,
 			);
