@@ -1,7 +1,7 @@
 # Interactive Story Space Adventure Game
 
 I'm building a *Choose your own adventure* text-based game for iOS with Swift 3.
-In the game, a user can make one of two choices during each step of the adventure before
+In this game, a user can make one of two choices during each step of the adventure before
 advancing to the next part of the story. They can keep selecting choices until
 they reach the end of the game.
 
