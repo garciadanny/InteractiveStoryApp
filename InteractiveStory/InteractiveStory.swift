@@ -87,3 +87,28 @@ extension Page {
     return page
   }
 }
+
+struct Adventure {
+  static var story: Page {
+    let returnTrip = Page(story: .returnTrip)
+    let touchDown = returnTrip.addChoice(title: "Stop and Investigate", story: .touchDown)
+    let homeward = returnTrip.addChoice(title: "Continue Home to Earth", story: .homeward)
+    let rover = touchDown.addChoice(title: "Explore the Rover", story: .rover)
+    let crate = touchDown.addChoice(title: "Open the Crate", story: .crate)
+    
+    homeward.addChoice("Head back to Mars", page: touchdown)
+    let home = homeward.addChoice("Continue Home to Earth", story: .Home)
+    
+    let cave = rover.addChoice("Explore the Coordinates", story: .Cave)
+    rover.addChoice("Return to Earth", page: home)
+    
+    cave.addChoice("Continue towards faint light", story: .Droid)
+    cave.addChoice("Refill the ship and explore the rover", page: rover)
+    
+    crate.addChoice("Explore the Rover", page: rover)
+    crate.addChoice("Use the key", story: .Monster)
+    
+    return returnTrip
+    
+  }
+}
