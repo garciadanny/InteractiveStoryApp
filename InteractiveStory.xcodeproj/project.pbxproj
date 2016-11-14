@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3017C98C1DD8F3940052E48C /* InteractiveStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017C98B1DD8F3940052E48C /* InteractiveStory.swift */; };
+		3017C98E1DD90D3B0052E48C /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017C98D1DD90D3B0052E48C /* PageController.swift */; };
 		30FBD8671DD69318009581DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FBD8661DD69318009581DE /* AppDelegate.swift */; };
 		30FBD8691DD69318009581DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FBD8681DD69318009581DE /* ViewController.swift */; };
 		30FBD86C1DD69318009581DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FBD86A1DD69318009581DE /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3017C98B1DD8F3940052E48C /* InteractiveStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveStory.swift; sourceTree = "<group>"; };
+		3017C98D1DD90D3B0052E48C /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		30FBD8631DD69318009581DE /* InteractiveStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FBD8661DD69318009581DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30FBD8681DD69318009581DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				30FBD8661DD69318009581DE /* AppDelegate.swift */,
 				30FBD8681DD69318009581DE /* ViewController.swift */,
 				3017C98B1DD8F3940052E48C /* InteractiveStory.swift */,
+				3017C98D1DD90D3B0052E48C /* PageController.swift */,
 				30FBD86A1DD69318009581DE /* Main.storyboard */,
 				30FBD86D1DD69318009581DE /* Assets.xcassets */,
 				30FBD86F1DD69318009581DE /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				30FBD8791DD695DB009581DE /* README.md in Sources */,
 				30FBD8691DD69318009581DE /* ViewController.swift in Sources */,
 				30FBD8671DD69318009581DE /* AppDelegate.swift in Sources */,
+				3017C98E1DD90D3B0052E48C /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
