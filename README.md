@@ -33,4 +33,8 @@ the context of an iOS app.
 
 * Learn how to create layout anchors and contraints.
 
+## Project Requirements
 
+* Xcode 8.1
+
+* Swift 3.0
