@@ -42,6 +42,24 @@ extension Story {
     }
   }
   
+  var soundEffectURL: NSURL {
+    get {
+      let fileName: String
+      
+      switch self {
+      case .droid, .home: fileName = "HappyEnding"
+      case .monster: fileName = "Ominous"
+      default: fileName = "PageTurn"
+      }
+      
+      let path = Bundle.main.path(forResource: fileName, ofType: "wav")!
+      
+      return NSURL(fileURLWithPath: path)
+    }
+  }
+  
+  
+  
   var text: String {
     get {
       switch self {
